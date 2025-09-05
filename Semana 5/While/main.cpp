@@ -12,30 +12,16 @@ int main()
         i = i + 1;
     }
     **/
-    int i;
-    cout << "Ingrese numero"<< endl;
-    cin >> i;
-    a = 1;
-    d = 0;
-    b = 1;
-
-
-    while (a<=20){
-        while ( b <= 20){
-            if ((a%b) == 0){
-                d = d +1
-            }
-            if (d <= 2){
-                cout << a <<endl;
-
-            }
-            b = b +1
+    long long n; i = 2; d=0;
+    while (i*i <= n){
+        if (n%i==0){
+            d++;
+            break;
         }
-        a = a+1
+        i++;
     }
+    cout << ( (d==0) ? << "primo": "No primo");
 
 
-
-
-    return 0;
+   return 0;
 }
