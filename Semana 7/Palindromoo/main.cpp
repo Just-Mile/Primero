@@ -1,21 +1,11 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
-int potencia(int base, int expo){
-    int result = 1;
-
-    for (int i = 0; i < expo; i++){
-        result = result * base;
-    }
-return result;
-
-}
-
-int palindromo ()
-
-/*
-bool palindromo = true;
+int main()
+{
+    bool palindromo = true;
     string cad;
     cout << "Ingrese palabra" << endl;
     cin >> cad;
@@ -36,11 +26,5 @@ bool palindromo = true;
         cout << "No es palindromo" << endl;
     }
 
-*/
-
-int main()
-{
-    int resultado = potencia (4, 4);
-    cout << resultado << endl;
     return 0;
 }
