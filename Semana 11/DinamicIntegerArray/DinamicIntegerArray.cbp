@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="ArrayClase" />
+		<Option title="DinamicIntegerArray" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/ArrayClase" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/DinamicIntegerArray" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -17,7 +17,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/ArrayClase" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/DinamicIntegerArray" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -34,13 +34,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="include/IntegerArray.h" />
-		<Unit filename="include/MyString.h" />
-		<Unit filename="include/Mystringg.h" />
+		<Unit filename="include/DynamicIntegerArray.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/IntegerArray.cpp" />
-		<Unit filename="src/MyString.cpp" />
-		<Unit filename="src/Mystringg.cpp" />
+		<Unit filename="src/DynamicIntegerArray.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
